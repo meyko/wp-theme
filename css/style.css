@@ -1,0 +1,258 @@
+/*
+Theme Name: Modern New Theme
+Theme URI: http://www.sitefor.pe.hu
+Author: Anna Pokidina
+Author URI: http://www.sitefor.pe.hu
+Description: Simple the,e with dinamic content
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+html,body{
+	margin:0;
+	padding:0;
+	min-height: 100%;
+}
+.wrapper-main{
+
+	background: url(../img/backgr2.png ) 0 -30px, url(../img/backgr1.png)  repeat, #043c93 radial-gradient(circle, #63caff 0%, #043c93 80%);
+	background-size:cover,4px 4px,cover; 
+	min-height: 100%;
+
+}
+.main{
+	
+}
+
+p{
+	font-family: Tahoma;
+	color: #847c7e;
+}
+h3{
+	font-size: 18pt;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	color: #282a2e;
+}
+
+h4{
+	font-size: 14pt;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-style: uppercase;
+}
+/**************header**************************************************/
+header{
+	margin-bottom: 60px;
+}
+.info-header{
+	position: relative;
+	padding-left:0;
+}
+.info-header p{
+	color:white;
+	font-size: 12pt;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'PT Sans Narrow', sans-serif;
+	position: absolute;
+	top:15px;
+}
+
+.info-header hr{
+	color:white;
+	margin-top: 14px;
+	margin-bottom: 25px;
+	
+}
+
+.menu-col{
+	padding-left:0; 
+}
+
+.menu{
+	margin-top: 30px;
+}
+
+nav ul.nav li a{
+	display: block;
+	background: white;
+	height: 105px;
+	padding-top:0;
+	padding-bottom:0;
+	text-align: center;
+	line-height: 100px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:16px;
+	color:#383c3f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav li{
+	box-sizing: border-box;
+	width:20%;
+	height:100px;
+	padding-right:1px;
+}
+
+ul.nav{
+	width: 100%;
+	box-shadow: 0 5px 10px #2d80cf;
+}
+
+div.navbar-collapse{
+	padding:0px;
+}
+
+nav{
+	margin-top:35px;
+
+}
+
+ul.nav li.active a, a.btn.active{
+	background: linear-gradient(to bottom,#003493,#001e57);
+	color:white;
+}
+
+h2{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/******************************main**************************************/
+.content{
+	box-shadow: 0 5px 0px #2d80cf;
+}
+section{
+	background: white;
+	padding-top: 65px;
+	position: relative;
+	overflow: hidden;
+}
+
+.sidebar-main{
+	
+}
+.welcome-main{
+	border-left: 2px solid #e7e4e5;
+	/*padding:0 0 0 25px ;*/
+	padding-right: 0;
+	margin-left: 30px;
+    padding-left: 30px;
+	border-left: 2px solid #e7e4e5;
+	font-size: 14px;
+	text-align: justify;
+
+}
+
+.welcome-main h1{
+	margin-top:0;
+	margin-bottom: 30px;
+	font-size: 18pt;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #42abf1;
+	font-weight: bold;
+	
+}
+
+.news{
+	margin-bottom: 30px;
+	position: relative;
+	padding-top: 41px;
+	padding-right:15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+.thumb{
+	height:310px;
+	overflow: hidden;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	padding-right: 6px;
+	padding-left:4px;
+	
+	
+}
+.thumb:last-child{
+	margin-left: 5px;
+}
+.news-header-wrapper{
+	min-height:105px;
+	width:100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.news .extra2{
+	border-left: 2px solid #e7e4e5;
+	margin:0;
+	padding: 0;
+}
+
+.news .thumbnail-image{
+	height:105px;
+	width:105px;
+	background: url('../img/test-pic.jpg'),;
+	background-size:cover; 
+	box-sizing: border-box;
+	border:#e7e4e5 solid 5px;
+	box-shadow: 0.2px 0.5px 1px black;
+	float:left;
+}
+.thumbnail-gradient {
+	position: absolute;
+	top:0;
+	left:0;
+	height:105px;
+	width:105px;
+	background: radial-gradient(circle,#fff,#2d80cf);
+	opacity: 0.3;
+	border:#e7e4e5 solid 5px;
+	box-sizing: border-box;
+
+}
+
+.news-header{
+	left: 16px;
+	overflow: hidden;
+	border-top: #4db1f3 3px solid ;
+	position: relative;
+}
+
+news. h3{
+	font-size: 1.5em;
+	line-height: 1em;
+	text-overflow: ellipsis;
+}
+.news-content{
+	margin-top:15px;
+	height:100px;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.btn.active{
+	text-transform: uppercase;
+	border-radius: 0;
+	width: 120px;
+	height:40px;
+	overflow: hidden;
+	position: absolute ;
+	bottom: 0;
+	left:0;
+	font-weight: 600;
+	font-size: 14pt;
+}
+
+/******************footer******************************/
+.footer{
+	border-top:2px solid white;
+	height:200px;
+}
+
+.copiright{
+	color: white;
+	margin-top: 5px;
+
+}
